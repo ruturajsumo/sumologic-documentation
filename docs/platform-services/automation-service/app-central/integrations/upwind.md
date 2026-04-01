@@ -4,7 +4,7 @@ description: ''
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/platform-services/automation-service/app-central/logos/upwind.png')} alt="upwind" width="80"/>
+<img src={useBaseUrl('/img/platform-services/automation-service/app-central/logos/upwind.png')} alt="Upwind icon" width="80"/>
 
 ***Version: 1.0  
 Updated: Apr 01, 2026***
@@ -13,9 +13,9 @@ Upwind secures your cloud deployments, configurations, and applications through 
 
 ## Actions
 
-* **Fetch Vulnerabilities** (*Enrichment*) - Fetch the vulnerabilities of upwind.
-* **Get Assets** (*Enrichment*) - Get the assets related upwind.
-* **List Detections** (*Enrichment*) - Retrieve the list of detections related to upwind.
+* **Fetch Vulnerabilities** (*Enrichment*) - Fetch the vulnerabilities of Upwind.
+* **Get Assets** (*Enrichment*) - Get the assets related Upwind.
+* **List Detections** (*Enrichment*) - Retrieve the list of detections related to Upwind.
 * **Update Detections** (*Containment*) - Update the status of a specific detection.
 
 ## Configure Upwind in Automation Service and Cloud SOAR
@@ -29,7 +29,7 @@ import IntegrationTimeout from '../../../../reuse/automation-service/integration
 
 <IntegrationsAuth/>
 * <IntegrationLabel/>
-* **API URL**. Enter your [Upwind API URL](https://api.upwind.io), for example, `https://api.upwind.io`.
+* **API URL**. Enter your [Upwind API URL](https://docs.upwind.io/public/getting-started/install-sensor/host/troubleshooting?_highlight=api.upwind.io#check-firewall-and-networking), for example, `https://api.upwind.io`.
 
 * **Client ID**. Enter your client ID, which is the unique identifier for your Upwind application. You can find this in your Upwind account settings or application dashboard.
 * **Client Secret**. Enter your client secret, which is a confidential key used to authenticate your application with Upwind. This can also be found in your Upwind account settings or application dashboard.
